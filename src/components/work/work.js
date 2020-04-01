@@ -1,5 +1,5 @@
 import React from 'react';
-import './exp.scss';
+import './work.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -9,18 +9,18 @@ import web from '../images/web.png';
 import mobile from '../images/mobile.png';
 import hook from '../images/webhook.png';
 
-function Experience() {
+function Work() {
 
     return (
-        <div className="exp-wrapper">
-            <Container fluid className="exp-container">
-                <Row className="exp_heading">
+        <div className="work-wrapper">
+            <Container fluid className="work-container">
+                <Row className="work_heading">
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} className="text-center">
                         <h2>Areas Of Expertise</h2>
                     </Col>
                 </Row>
-                <Row className="exp_content">
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                <Row className="work_content">
+                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="work_type">
                         <div>
                             <div>
                                 <Image src={cloud} alt="bg" fluid />
@@ -38,7 +38,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="work_type">
                         <div>
                             <div>
                                 <Image src={web} alt="bg" fluid />
@@ -56,7 +56,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="work_type">
                         <div>
                             <div>
                                 <Image src={mobile} alt="bg" fluid />
@@ -76,7 +76,7 @@ function Experience() {
                     </Col>
                 </Row>
                 <Row className="exp_content">
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="work_type">
                         <div>
                             <div>
                                 <Image src={cloud} alt="bg" fluid />
@@ -94,7 +94,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="work_type">
                         <div>
                             <div>
                                 <Image src={web} alt="bg" fluid />
@@ -112,7 +112,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="work_type">
                         <div>
                             <div>
                                 <Image src={mobile} alt="bg" fluid />
@@ -136,4 +136,4 @@ function Experience() {
     );
 }
 
-export default Experience;
+export default Work;
