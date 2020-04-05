@@ -1,0 +1,14 @@
+@import './components/scss/variables.scss';
+
+.App {
+  background-color: $base-color;
+  position: absolute;
+  z-index: -999;
+  overflow: hidden;
+  .header_img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: -1;
+  }
+}

@@ -19,8 +19,8 @@ function Experience() {
                         <h2>Areas Of Expertise</h2>
                     </Col>
                 </Row>
-                <Row className="exp_content">
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                <Row className="exp_content text-center">
+                    <Col xs={11} sm={9} md={3} lg={3} xl={3} className="exp_type">
                         <div>
                             <div>
                                 <Image src={cloud} alt="bg" fluid />
@@ -38,7 +38,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={11} sm={9} md={3} lg={3} xl={3} className="exp_type">
                         <div>
                             <div>
                                 <Image src={web} alt="bg" fluid />
@@ -56,7 +56,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={11} sm={9} md={3} lg={3} xl={3} className="exp_type">
                         <div>
                             <div>
                                 <Image src={mobile} alt="bg" fluid />
@@ -76,7 +76,7 @@ function Experience() {
                     </Col>
                 </Row>
                 <Row className="exp_content">
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={11} sm={9} md={3} lg={3} xl={3} className="exp_type">
                         <div>
                             <div>
                                 <Image src={cloud} alt="bg" fluid />
@@ -94,7 +94,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={11} sm={9} md={3} lg={3} xl={3} className="exp_type">
                         <div>
                             <div>
                                 <Image src={web} alt="bg" fluid />
@@ -112,7 +112,7 @@ function Experience() {
                             </p>
                         </div>
                     </Col>
-                    <Col xs={12} sm={12} md={4} lg={4} xl={4} className="exp_type">
+                    <Col xs={11} sm={9} md={3} lg={3} xl={3} className="exp_type">
                         <div>
                             <div>
                                 <Image src={mobile} alt="bg" fluid />

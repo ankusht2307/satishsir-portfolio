@@ -13,7 +13,7 @@ function Estimate() {
 
     return (
         <div className="estimate-wrapper">
-            <Container fluid className="estimate-container" style={{ backgroundColor: "red" }}>
+            <Container fluid className="estimate-container">
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={8} xl={8} className="text-center">
                         <div>

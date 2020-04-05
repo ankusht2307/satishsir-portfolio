@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image'
-import './App.css';
+import './App.scss';
 import NavbarComponent from './components/navbar/navbar';
 import Header from './components/header/header';
 import pic from './components/images/header.png'
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/* <img src={Image} alt="as"></img> */}
-      <Image src={pic} alt="image" fluid />
+      <Image src={pic} alt="image" fluid  className="header_img"/>
       <NavbarComponent />
       <Header />
       <Experience />

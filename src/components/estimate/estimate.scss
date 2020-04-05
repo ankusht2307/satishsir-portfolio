@@ -1,6 +1,10 @@
+@import '../scss/variables.scss';
+
 .estimate-wrapper{
+    margin-top: 8rem;
+    background-color: $section-color;
     .estimate_img{
         display: block;
-        width: 100%;
+        max-width: 100%;
     }
 }
