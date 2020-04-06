@@ -1,3 +1,36 @@
-h1 {
-    color: red;
+@import "../scss/variables.scss";
+
+.testimonial-wrapper {
+    background-color: $section-color;
+    margin: 3rem 0rem;
+    padding: 3rem 0rem;
+
+    img{
+        max-width: 100%;
+        display: block;
+    }
+
+    h1 {
+        color: $card;
+    }
+
+    .testimonial{
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonial-col{
+        background-color: $card;
+        margin: 1rem;
+        display: flex;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .testimonial-wrapper{
+        .testimonial-col{
+            flex-wrap: wrap;
+        }
+    }
 }
