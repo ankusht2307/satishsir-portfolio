@@ -5,9 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import cloud from '../images/cloud.png';
-import web from '../images/web.png';
-import mobile from '../images/mobile.png';
-import hook from '../images/webhook.png';
 
 function Estimate() {
 
