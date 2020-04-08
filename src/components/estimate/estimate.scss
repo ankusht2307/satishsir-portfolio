@@ -1,10 +1,42 @@
-@import '../scss/variables.scss';
+@import "../scss/variables.scss";
 
-.estimate-wrapper{
+.estimate-wrapper {
     margin-top: 8rem;
     background-color: $section-color;
-    .estimate_img{
+
+    .estimate_img {
         display: block;
         max-width: 100%;
+        height: 650px;
+    }
+
+    .img {
+        padding: 3rem 0 0 3rem;
+    }
+
+    .text {
+        align-self: center;
+        color: $card;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .estimate-wrapper {
+        .row-container {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+
+        .estimate_img{
+            height: 500px;
+        }
+
+        .img{
+            padding: 3rem 0 0 1rem;
+        }
+
+        .text{
+            padding-top: 3rem;
+        }
     }
 }
