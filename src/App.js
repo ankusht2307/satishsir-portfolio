@@ -15,8 +15,6 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
-      {/* <img src={Image} alt="as"></img> */}
-      <Image src={pic} alt="image" fluid  className="header_img"/>
       <NavbarComponent />
       <Header />
       <Experience />
