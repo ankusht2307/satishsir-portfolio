@@ -1,8 +1,87 @@
+@import "../scss/variables.scss";
+
 .header {
   background-image: url(../images/Vector.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1200px;
-  margin-top: -500px;
+  height: 700px;
+  margin-top: -100px;
+
+  .h-1 {
+    color: $base-color;
+    font-size: 2rem;
+  }
+
+  .h-2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .h-3 {
+    color: $base-color;
+    font-size: 2rem;
+  }
+
+  .download-btn {
+    border-radius: 20px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: $base-color;
+    display: inline-block;
+    &:hover{
+      background-color: $text-color;
+      color: $base-color;
+    }
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+  }
+
+  .text {
+    align-self: center;
+  }
+
+  .display-pic {
+    display: block;
+    text-align: right;
+    margin-top: 2.2rem;
+    img {
+      width: 450px;
+      height: 450px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    height: 600px;
+
+    .display-pic {
+      img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+
+    .display-pic {
+      img {
+        display: none;
+      }
+    }
+
+    .text{
+      padding-top: 3rem;
+    }
+  }
 }
