@@ -15,8 +15,8 @@ function Header() {
                         <h2 className="h-2">Satish pandey</h2>
                         <h3 className="h-3">A Professional Full Stack Developer</h3>
                         <div>
-                            <Button variant="outline-danger" className="download-btn">MY SERVICES</Button>
-                            <Button variant="outline-danger" className="download-btn">RECENT WORKS</Button>
+                            <Button variant="outline-danger" className="download-btn-1">MY SERVICES</Button>
+                            <Button variant="outline-danger" className="download-btn-2">RECENT WORKS</Button>
                         </div>
                     </div>
                 </Col>

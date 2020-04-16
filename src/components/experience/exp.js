@@ -25,7 +25,7 @@ function Experience() {
                                 <Image src={cloud} alt="bg" fluid />
                             </div>
                             <h3>Cloud</h3>
-                            <p>
+                            <p className="card-text">
                                 Consectetur ex sunt irure dolor.
                                 0Laborum duis mollit deserunt ut dolor
                                 occaecat consequat in sint aliquip eu et
@@ -43,7 +43,7 @@ function Experience() {
                                 <Image src={web} alt="bg" fluid />
                             </div>
                             <h3>Web Apps</h3>
-                            <p>
+                            <p className="card-text">
                                 Consectetur ex sunt irure dolor.
                                 0Laborum duis mollit deserunt ut dolor
                                 occaecat consequat in sint aliquip eu et
@@ -61,7 +61,7 @@ function Experience() {
                                 <Image src={mobile} alt="bg" fluid />
                             </div>
                             <h3>Mobile Apps</h3>
-                            <p>
+                            <p className="card-text">
                                 Consectetur ex sunt irure dolor.
                                 0Laborum duis mollit deserunt ut dolor
                                 occaecat consequat in sint aliquip eu et
@@ -81,7 +81,7 @@ function Experience() {
                                 <Image src={cloud} alt="bg" fluid />
                             </div>
                             <h3>Cloud</h3>
-                            <p>
+                            <p className="card-text">
                                 Consectetur ex sunt irure dolor.
                                 0Laborum duis mollit deserunt ut dolor
                                 occaecat consequat in sint aliquip eu et
@@ -99,7 +99,7 @@ function Experience() {
                                 <Image src={web} alt="bg" fluid />
                             </div>
                             <h3>Web Apps</h3>
-                            <p>
+                            <p className="card-text">
                                 Consectetur ex sunt irure dolor.
                                 0Laborum duis mollit deserunt ut dolor
                                 occaecat consequat in sint aliquip eu et
@@ -117,7 +117,7 @@ function Experience() {
                                 <Image src={mobile} alt="bg" fluid />
                             </div>
                             <h3>Mobile Apps</h3>
-                            <p>
+                            <p className="card-text">
                                 Consectetur ex sunt irure dolor.
                                 0Laborum duis mollit deserunt ut dolor
                                 occaecat consequat in sint aliquip eu et
