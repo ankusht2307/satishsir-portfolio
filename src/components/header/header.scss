@@ -31,6 +31,7 @@
     color: $base-color;
     display: inline-block;
     border: none;
+    padding: .5rem 2rem;
     &:hover {
       background-color: $text-color;
     }
@@ -44,6 +45,7 @@
     color: $base-color;
     display: inline-block;
     border: none;
+    padding: .5rem 2rem;
     &:hover {
       background-color: $red;
     }
