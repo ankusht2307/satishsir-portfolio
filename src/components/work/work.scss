@@ -1,24 +1,23 @@
-@import '../scss/variables.scss';
+@import "../scss/variables.scss";
 .work-wrapper {
     margin-top: 100px;
     text-align: center;
-    border: 1px solid red;
     background-color: $section-color;
     padding: 3rem 0;
-    h2{
-        color: $card;
+    h2 {
+        color: $red;
         margin-bottom: 2rem;
     }
     .work-type {
-        border: 1px solid black;
         margin: 1rem;
         padding: 0;
         background-color: $card;
         &:hover .overlay {
-            opacity: 0.8;
+            opacity: 0.5;
             height: 100%;
             transition: 0.4s;
-            background-color: red;
+            background-color: $red;
+            transform: scale(1);
         }
     }
     .overlay {
