@@ -4,33 +4,31 @@ import { Row, Col } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button';
-import Dp from '../images/dp.png'
+import Dp from '../images/mailbox.svg'
 
 function Contact() {
     return (
         <div className="contact-wrapper">
             <h1 className="text-center">Get In Touch !</h1>
-            <Row className="p-4">
-                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-                    <Form>
+            <Row className="row-container">
+                <Col xs={12} sm={12} md={7} lg={7} xl={7} className="form-column">
+                    <Form className="form">
                         <Form.Group controlId="Name">
+                            <Form.Control type="text" placeholder="Name" required/>
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" placeholder="Name" />
                         </Form.Group>
                         <Form.Group controlId="Email">
+                            <Form.Control type="email" placeholder="name@example.com" required/>
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="name@example.com" />
                         </Form.Group>
                         <Form.Group controlId="Message">
+                            <Form.Control as="textarea" rows="3" placeholder="Type message here!!" required/>
                             <Form.Label>Example textarea</Form.Label>
-                            <Form.Control as="textarea" rows="3" />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
+                        <Button variant="outline-danger" className="download-btn-1">Send</Button>
                     </Form>
                 </Col>
-                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                <Col md={5} lg={5} xl={5} className="mail-image text-center">
                     <Image src={Dp} alt="dp" fluid />
                 </Col>
             </Row>

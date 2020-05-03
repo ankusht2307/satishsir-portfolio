@@ -1,5 +1,93 @@
-@import '../scss/variables.scss';
+@import "../scss/variables.scss";
 
-.contact-wrapper{
+.contact-wrapper {
     background-color: $section-color;
+    padding: 2rem;
+
+    .row-container {
+        // border: 1px solid black;
+    }
+
+    .mail-image {
+        // border: 1px solid black;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .form-column {
+        // border: 1px solid black;
+    }
+
+    .form {
+        width: 60%;
+        margin: 0 auto;
+        // padding-top: .5rem;
+    }
+
+    label {
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .form-group {
+        position: relative;
+        margin: 2.2rem 0;
+    }
+
+    input:focus + label,
+    textarea:focus + label {
+        height: 100%;
+        overflow: none;
+        position: absolute;
+        // top: -1.5rem;
+        bottom: 1.1rem;
+        transition: all 0.2s ease-in-out;
+    }
+
+    input:focus::placeholder,
+    textarea:focus::placeholder {
+        color: transparent;
+    }
+
+    input,
+    textarea {
+        border-radius: 0px;
+        transition: all 0.5s ease-in-out;
+        &:focus {
+            box-shadow: none;
+            border-color: $card;
+            border-bottom: 3px solid $red;
+        }
+    }
+
+    h1 {
+        color: $red;
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+
+    .download-btn-1 {
+        border-radius: 20px;
+        background-color: $red;
+        color: $base-color;
+        display: inline-block;
+        border: none;
+        padding: .5rem 4rem;
+        &:hover {
+          background-color: $text-color;
+        }
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .mail-image {
+        // border: 1px solid black;
+
+        img {
+            display: none;
+        }
+    }
 }
