@@ -1,0 +1,50 @@
+@import "../scss/variables.scss";
+
+.footer-wrapper {
+    background-color: $red;
+    margin-top: 2rem;
+    padding: 2rem 0;
+
+    .icons-container {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .icons-row {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .links-row {
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+        margin-top: 1.5rem;
+
+        div {
+            padding: .5rem 0;
+        }
+    }
+
+    .copyrights-row {
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+        margin-top: 1.5rem;
+        color: #fff;
+
+        div {
+            padding: .5rem 0;
+        }
+    }
+
+    div a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    img {
+        background-color: #fff;
+        border-radius: 10px;
+        width: 3rem;
+    }
+}
