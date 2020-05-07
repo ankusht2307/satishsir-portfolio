@@ -4,21 +4,22 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import cloud from '../images/Fr.png';
+import cloud from '../images/Frame.svg';
+import { Button } from 'react-bootstrap';
 
 function Estimate() {
 
     return (
         <div className="estimate-wrapper">
-            <Container fluid className="estimate-container">
-                <Row className="row-container">   
-                    <Col xs={11} sm={11} md={7} lg={7} xl={7} className="text-center img">
-                        <Image src={cloud} alt="bg" fluid className="estimate_img" />
+            <Container fluid>
+                <Row className="row-container">
+                    <Col xs={12} sm={12} md={7} lg={7} xl={7} className="img-column">
+                        <Image src={cloud} alt="estimate-image" fluid />
                     </Col>
-                    <Col xs={11} sm={11} md={5} lg={5} xl={5} className="text-center text">
+                    <Col xs={12} sm={12} md={5} lg={5} xl={5} className="text-center text-column">
                         <div>
                             <h2>Have a Project on your mind ?</h2>
-                            <h3>Get An Estimate !</h3>
+                            <Button variant="outline-danger" className="download-btn-2">Get An Estimate !</Button>
                         </div>
                     </Col>
                 </Row>

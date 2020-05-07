@@ -65,8 +65,10 @@
         display: inline-block;
         border: none;
         padding: 0.5rem 4rem;
+        transition: box-shadow .3s ease-in-out;
         &:hover {
             background-color: $text-color;
+            box-shadow: 0.35rem 0.25rem 0.25rem $shadow;;
         }
     }
 }
