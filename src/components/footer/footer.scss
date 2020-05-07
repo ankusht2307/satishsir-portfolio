@@ -40,11 +40,21 @@
     div a {
         text-decoration: none;
         color: #fff;
+        transition: all .2s ease-out;
+        &:hover{
+            border-bottom: 2px solid #FFF;
+            font-size: 1.1rem;
+        }
     }
 
     img {
         background-color: #fff;
         border-radius: 10px;
         width: 3rem;
+        transition: transform .3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            filter: drop-shadow(.25rem .25rem .25rem black);
+        }
     }
 }

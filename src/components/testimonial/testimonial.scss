@@ -2,7 +2,7 @@
 
 .testimonial-wrapper {
     background-color: $red;
-    margin: 3rem 0rem;
+    margin: 5rem 0rem 0rem;
     padding: 3rem 0rem;
 
     img {
@@ -13,7 +13,7 @@
     }
 
     h1 {
-        color: $card;
+        color: $white;
     }
 
     .img-container {
@@ -37,7 +37,7 @@
     }
 
     .testimonial-col {
-        background-color: $card;
+        background-color: $base-color;
         margin: 1rem;
         display: flex;
         text-align: left;

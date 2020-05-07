@@ -2,28 +2,18 @@
 
 .contact-wrapper {
     background-color: $section-color;
-    padding: 2rem;
-
-    .row-container {
-        // border: 1px solid black;
-    }
+    margin-top: 5rem;
+    padding: 3rem 2rem;
 
     .mail-image {
-        // border: 1px solid black;
-
         img {
             max-width: 100%;
         }
     }
 
-    .form-column {
-        // border: 1px solid black;
-    }
-
     .form {
         width: 60%;
         margin: 0 auto;
-        // padding-top: .5rem;
     }
 
     label {
@@ -42,7 +32,6 @@
         height: 100%;
         overflow: none;
         position: absolute;
-        // top: -1.5rem;
         bottom: 1.1rem;
         transition: all 0.2s ease-in-out;
     }
@@ -72,20 +61,18 @@
     .download-btn-1 {
         border-radius: 20px;
         background-color: $red;
-        color: $base-color;
+        color: $white;
         display: inline-block;
         border: none;
-        padding: .5rem 4rem;
+        padding: 0.5rem 4rem;
         &:hover {
-          background-color: $text-color;
+            background-color: $text-color;
         }
-      }
+    }
 }
 
 @media screen and (max-width: 768px) {
     .mail-image {
-        // border: 1px solid black;
-
         img {
             display: none;
         }

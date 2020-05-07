@@ -7,7 +7,7 @@ function NavbarComponent() {
 
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg" style={{backgroundColor: 'white'}}>
                 <Navbar.Brand href="#home">S</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

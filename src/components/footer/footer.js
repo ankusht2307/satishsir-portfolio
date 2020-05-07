@@ -15,21 +15,29 @@ function Footer() {
             <Container className="icons-container">
                 <Row className="icons-row">
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <img src={linkedIn} alt="linkedIn-image" fluid />
+                        <a href="#">
+                            <img src={linkedIn} alt="linkedIn-image" fluid />
+                        </a>
                     </Col>
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <img src={github} alt="github-image" fluid />
+                        <a href="#">
+                            <img src={github} alt="github-image" fluid />
+                        </a>
                     </Col>
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <img src={twitter} alt="twitter-image" fluid />
+                        <a href="#">
+                            <img src={twitter} alt="twitter-image" fluid />
+                        </a>
                     </Col>
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <img src={stack} alt="stackoverflow-image" fluid />
+                        <a href="#">
+                            <img src={stack} alt="stackoverflow-image" fluid />
+                        </a>
                     </Col>
                 </Row>
                 <Row className="links-row">
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#">Home</a>
+                        <a href="#" className="anchor">Home</a>
                     </Col>
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
                         <a href="#">Services</a>

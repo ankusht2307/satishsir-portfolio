@@ -1,7 +1,7 @@
 @import "../scss/variables.scss";
 
 .header {
-  background-image: url(../images/Vector.svg);
+  background-image: url(../images/header-background.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
   margin-top: -100px;
 
   .h-1 {
-    color: $red;
+    color: $white;
     font-size: 2rem;
   }
 
@@ -19,7 +19,7 @@
   }
 
   .h-3 {
-    color: $red;
+    color: $white;
     font-size: 2rem;
   }
 
@@ -27,13 +27,16 @@
     border-radius: 20px;
     margin-right: 1rem;
     margin-top: 1rem;
-    background-color: $red;
-    color: $base-color;
+    background-color: $white;
+    color: $shadow;
     display: inline-block;
     border: none;
     padding: .5rem 2rem;
+    transition: box-shadow .3s ease-in-out;
     &:hover {
-      background-color: $text-color;
+      background-color: $shadow;
+      color: white;
+      box-shadow: 0.35rem 0.25rem 0.25rem $shadow;
     }
   }
 
@@ -41,13 +44,16 @@
     border-radius: 20px;
     margin-right: 1rem;
     margin-top: 1rem;
-    background-color: $text-color;
-    color: $base-color;
+    background-color: $shadow;
+    color: $white;
     display: inline-block;
     border: none;
     padding: .5rem 2rem;
+    transition: box-shadow .3s ease-in-out;
     &:hover {
-      background-color: $red;
+      background-color: $white;
+      color: $shadow;
+      box-shadow: 0.35rem 0.25rem 0.25rem $shadow;
     }
   }
 
