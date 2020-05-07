@@ -1,10 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from 'react-bootstrap/Image'
 import './App.scss';
 import NavbarComponent from './components/navbar/navbar';
 import Header from './components/header/header';
-import pic from './components/images/header.png'
 import Experience from './components/experience/exp';
 import Estimate from './components/estimate/estimate';
 import Work from './components/work/work';
