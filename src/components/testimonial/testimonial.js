@@ -6,7 +6,7 @@ import Dp from '../images/dp.png';
 
 function Testimonial() {
     return (
-        <div className="testimonial-wrapper">
+        <div className="testimonial-wrapper" id="testimonials">
             <h1 className="text-center">
                 Testimonials
             </h1>

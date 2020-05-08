@@ -28,16 +28,8 @@
         justify-content: center;
     }
 
-    .testimonial-col::before {
-        content: open-quote;
-        font-size: 2rem;
-        &:hover::before{
-            transform: scale(1.1);
-        }
-    }
-
     .testimonial-col {
-        background-color: $base-color;
+        background-color: $white;
         margin: 1rem;
         display: flex;
         text-align: left;
@@ -54,6 +46,15 @@
     .testimonial-wrapper {
         .testimonial-col {
             flex-wrap: wrap;
+            padding: 0.5rem;
+
+            p {
+                margin-left: 0.5rem !important;
+            }
+        }
+
+        img {
+            margin: 2.8rem 0 0 0.5rem;
         }
     }
 }

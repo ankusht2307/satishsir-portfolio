@@ -8,7 +8,7 @@ import Dp from '../images/mailbox.svg'
 
 function Contact() {
     return (
-        <div className="contact-wrapper">
+        <div className="contact-wrapper" id="contact">
             <h1 className="text-center">Get In Touch !</h1>
             <Row className="row-container">
                 <Col xs={12} sm={12} md={7} lg={7} xl={7} className="form-column">
@@ -23,7 +23,7 @@ function Contact() {
                         </Form.Group>
                         <Form.Group controlId="Message">
                             <Form.Control as="textarea" rows="3" placeholder="Type message here!!" required/>
-                            <Form.Label>Example textarea</Form.Label>
+                            <Form.Label>Message</Form.Label>
                         </Form.Group>
                         <Button variant="outline-danger" className="download-btn-1">Send</Button>
                     </Form>

@@ -11,7 +11,7 @@ import mobile from '../images/mobile.png';
 function Experience() {
 
     return (
-        <div className="exp-wrapper">
+        <div className="exp-wrapper" id="services">
             <Container fluid className="exp-container">
                 <Row className="exp_heading">
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} className="text-center">

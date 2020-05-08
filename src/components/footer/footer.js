@@ -37,22 +37,22 @@ function Footer() {
                 </Row>
                 <Row className="links-row">
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#" className="anchor">Home</a>
+                        <a href="#header" className="anchor">Home</a>
                     </Col>
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </Col>
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#">Projects</a>
+                        <a href="#projects">Projects</a>
                     </Col>
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#">Testimonials</a>
+                        <a href="#testimonials">Testimonials</a>
                     </Col>
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </Col>
                     <Col xs={8} sm={2} md={2} lg={2} xl={2}>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </Col>
                 </Row>
                 <Row className="copyrights-row">
