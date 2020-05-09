@@ -19,21 +19,21 @@ function Work() {
                 <Row className="work_content justify-content-center">
                     <Col xs={10} sm={3} md={2} lg={2} xl={2} className="work-type">
                         <div>
-                            <a href="#">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <Image src={webhook} alt="bg" fluid />
                             </a>
                         </div>
                     </Col>
                     <Col xs={10} sm={3} md={2} lg={2} xl={2} className="work-type">
                         <div>
-                            <a href="#">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <Image src={webhook} alt="bg" fluid />
                             </a>
                         </div>
                     </Col>
                     <Col xs={10} sm={3} md={2} lg={2} xl={2} className="work-type">
                         <div>
-                            <a href="#">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <Image src={webhook} alt="bg" fluid />
                             </a>
                         </div>
@@ -42,21 +42,21 @@ function Work() {
                 <Row className="work_content justify-content-center">
                     <Col xs={10} sm={3} md={2} lg={2} xl={2} className="work-type">
                         <div>
-                            <a href="#">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <Image src={webhook} alt="bg" fluid />
                             </a>
                         </div>
                     </Col>
                     <Col xs={10} sm={3} md={2} lg={2} xl={2} className="work-type">
                         <div>
-                            <a href="#">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <Image src={webhook} alt="bg" fluid />
                             </a>
                         </div>
                     </Col>
                     <Col xs={10} sm={3} md={2} lg={2} xl={2} className="work-type">
                         <div>
-                            <a href="#">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <Image src={webhook} alt="bg" fluid />
                             </a>
                         </div>

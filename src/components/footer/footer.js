@@ -15,23 +15,23 @@ function Footer() {
             <Container className="icons-container">
                 <Row className="icons-row">
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <a href="#">
-                            <img src={linkedIn} alt="linkedIn-image" fluid />
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedIn} alt="" fluid />
                         </a>
                     </Col>
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <a href="#">
-                            <img src={github} alt="github-image" fluid />
+                        <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="" fluid />
                         </a>
                     </Col>
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <a href="#">
-                            <img src={twitter} alt="twitter-image" fluid />
+                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={twitter} alt="" fluid />
                         </a>
                     </Col>
                     <Col xs={2} sm={2} md={1} lg={1} xl={1}>
-                        <a href="#">
-                            <img src={stack} alt="stackoverflow-image" fluid />
+                        <a href="https://www.stackoverflow.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={stack} alt="" fluid />
                         </a>
                     </Col>
                 </Row>
@@ -60,7 +60,7 @@ function Footer() {
                         <strong>&copy; 2020 Satish Pandey</strong>
                     </Col>
                     <Col xs={8} sm={6}>
-                        <a href="#">Resources</a>
+                        <a href="https://www.icons8.com/" target="_blank" rel="noopener noreferrer">Resources</a>
                     </Col>
                 </Row>
             </Container>
