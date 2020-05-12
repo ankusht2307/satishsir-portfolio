@@ -10,6 +10,7 @@ function Work() {
 
     return (
         <div className="work-wrapper" id="projects">
+            {/* eslint-disable */}
             <Container fluid className="work-container">
                 <Row className="work_heading">
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} className="text-center">
