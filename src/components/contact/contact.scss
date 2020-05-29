@@ -1,7 +1,7 @@
 @import "../scss/variables.scss";
 
 .contact-wrapper {
-    background-color: $section-color;
+    background-color: #112D32;
     margin-top: 5rem;
     padding: 3rem 2rem;
 
@@ -67,7 +67,8 @@
         padding: 0.5rem 4rem;
         transition: box-shadow .3s ease-in-out;
         &:hover {
-            background-color: $text-color;
+            background-color: $white;
+            color: $red;
             box-shadow: 0.35rem 0.25rem 0.25rem $shadow;;
         }
     }

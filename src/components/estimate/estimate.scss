@@ -2,7 +2,7 @@
 
 .estimate-wrapper {
     margin-top: 5rem;
-    background-color: $red;
+    background-color: #112D32;
 
     .text-column {
         display: flex;
@@ -18,7 +18,7 @@
 
     .download-btn-2 {
         border-radius: 20px;
-        background-color: $shadow;
+        background-color: $red;
         color: $white;
         display: inline-block;
         border: none;
@@ -27,7 +27,7 @@
         transition: box-shadow 0.3s ease-in-out;
         &:hover {
             background-color: $white;
-            color: $shadow;
+            color: $red;
             box-shadow: 0.35rem 0.25rem 0.25rem $shadow;
         }
     }
